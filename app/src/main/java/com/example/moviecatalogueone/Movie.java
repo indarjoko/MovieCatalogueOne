@@ -20,12 +20,12 @@ public class Movie implements Parcelable {
         rating = in.readFloat();
     }
 
-    public Movie(String name, String s, int poster_aquaman, int star, float v){
+    public Movie(String name, String s, int image, int star, float v){
             this.name = name;
-            this.description = description;
-            this.image = image;
-            this.star = this.star;
-            this.rating = rating;
+            this.description = s;
+            this.image =image;
+            this.star = star;
+            this.rating = v;
 
     }
 
@@ -60,38 +60,47 @@ public class Movie implements Parcelable {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getDescription() {
+
         return description;
     }
 
     public void setDescription(String description) {
+
         this.description = description;
     }
 
     public int getImage() {
+
         return image;
     }
 
     public void setImage(int image) {
+
         this.image = image;
     }
 
     public int getStar() {
+
         return star;
     }
 
     public void setStar(int star) {
+
         this.star = star;
     }
 
     public float getRating() {
+
         return rating;
     }
 
     public void setRating(float rating) {
+
         this.rating = rating;
     }
 

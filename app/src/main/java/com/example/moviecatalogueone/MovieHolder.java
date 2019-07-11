@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.squareup.picasso.Picasso;
 
+
 public class MovieHolder extends RecyclerView.ViewHolder {
 
     private ImageView imgPhoto;

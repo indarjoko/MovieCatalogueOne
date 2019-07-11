@@ -11,7 +11,7 @@
         android:layout_height="165dp"
         android:scaleType="center"
         android:layout_centerVertical="true"
-        android:src="@drawable/star"
+        android:src="@mipmap/ic_launcher"
         />
     
     <LinearLayout
