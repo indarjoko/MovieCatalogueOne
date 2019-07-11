@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/imgImage"
-        android:layout_width="165dp"
-        android:layout_height="165dp"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
         android:scaleType="center"
         android:layout_centerVertical="true"
         android:src="@mipmap/ic_launcher"

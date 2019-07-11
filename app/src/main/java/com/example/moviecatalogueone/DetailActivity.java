@@ -26,7 +26,7 @@ public class DetailActivity extends AppCompatActivity {
         tvRating = findViewById(R.id.tv_rating);
         tvDescription = findViewById(R.id.tv_desc);
 
-        Movie movie =getIntent().getParcelableExtra("MOVIE_INFO");
+        Movie movie = getIntent().getParcelableExtra("MOVIE_INFO");
 
         Picasso.get().load(movie.getImage()).into(imgPhoto);
         Picasso.get().load(movie.getImage()).into(imgStar);
